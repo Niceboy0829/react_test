@@ -1,0 +1,167 @@
+
+.back {
+    background-color: #e8e5f3;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+  }
+
+img {
+    margin: 20;
+    border-radius: 20%;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top {
+    display :flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    color: #515286;
+}
+
+h2 {
+    color: #70709c;
+    margin-bottom: -10px;
+}
+
+.pillar {
+    margin-left: 25px;
+    width: 30%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #dbdff1;
+    position: relative;
+    
+}
+
+.pillar_f {
+    position: absolute;
+    z-index: 99;
+    width: 90%;
+    height: 6px;
+    background-color: #8676ff;
+    border-radius: 3px;
+}
+
+.pillars {
+    margin-left: 0px;
+    width: 30%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #dbdff1;
+    position: relative;
+    
+}
+
+.pillars_f {
+    position: absolute;
+    z-index: 99;
+    width: 40%;
+    height: 6px;
+    background-color: #ff708a;
+    border-radius: 3px;
+}
+
+p{
+    padding-left: 20px;
+    font-size: 20px;
+    color: #06b929;
+    font-weight: bold;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top_right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    border-radius:3%;
+    padding:20px;
+    width: 400px;
+    height: 140px;
+}
+
+.left_bottom {
+    
+}
+
+.right_bottom {
+    margin-left: 250px;
+}
+.pillar_ver {
+    margin-left: 25px;
+    width: 6px;
+    height: 30%;
+    border-radius: 3px;
+    background-color: #dbdff1;
+    position: relative;
+    
+}
+
+.pillars_ver {
+    position: absolute;
+    z-index: 99;
+    width: 6px;
+    height: 90%;
+    background-color: #fd708b;
+    border-radius: 3px;
+}
+.pillar_vers {
+    margin-left: 25px;
+    width: 6px;
+    height: 70%;
+    border-radius: 3px;
+    background-color: #dbdff1;
+    position: relative;
+    
+}
+
+.pillars_vers {
+    position: absolute;
+    z-index: 99;
+    width: 6px;
+    height: 100%;
+    background-color: #8575fe;
+    border-radius: 3px;
+}
+
+.column {
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+}
+.bottom_right {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
